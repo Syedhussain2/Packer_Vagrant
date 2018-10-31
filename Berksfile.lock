@@ -1,0 +1,26 @@
+DEPENDENCIES
+  Mongodb
+    git: git@github.com:Syedhussain2/DevOps_Mongodb_setup.git
+    revision: 5b2c9c1ea2cfebd8f3675e96ca8f5226560c27b1
+  node
+    git: git@github.com:Syedhussain2/DevOps_node_setup.git
+    revision: 67cf5dbda17935a2f6cff074f441f9539069bc96
+
+GRAPH
+  Mongodb (0.1.0)
+  ark (4.0.0)
+    build-essential (>= 0.0.0)
+    seven_zip (>= 0.0.0)
+  build-essential (8.2.1)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  mingw (2.1.0)
+    seven_zip (>= 0.0.0)
+  node (0.1.0)
+    nodejs (~> 5.0.0)
+  nodejs (5.0.0)
+    ark (>= 2.0.2)
+    build-essential (>= 0.0.0)
+  seven_zip (3.0.0)
+    windows (>= 0.0.0)
+  windows (5.1.4)
